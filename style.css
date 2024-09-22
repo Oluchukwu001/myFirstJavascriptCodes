@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white
+}
+
+.red{
+    color: red
+}
+
+.parent{
+    display: flex;
+    height: 50px;
+    background: blue;
+    justify-content: space-between;
+    padding-inline: 10px;
+    align-items: center;
+}
+
+.menu{
+    height: calc(100vh - 50px);
+    background: #000;
+    transition: 2s all;
+    position: fixed;
+    right: -100vw;
+    width: 100%;
+}
+
+.toggleMenu{
+    transition: 2s all;
+    right: 0;
+}

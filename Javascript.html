@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oluboss</title>
+    <!-- <script src="new.js"></script>
+    <script src="Quiz.js"></script>
+    <script src="namesfamily.js"></script> -->
+    <!-- <script src="Beverage.js"></script> -->
+    <script src="askfordrink.js"></script>
+    <!-- <script src="trylooping.js"></script> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent">
+        <p>Logo</p>
+        <p onclick="toggleMenu()">Hanburger</p>
+    </div>
+    <p id="number"></p>
+
+    <div class="menu"></div>
+    <p>wdwhdwudwhwu</p>
+    <!-- /loop
+    const loopNumbers = [1, 2, 3, 4, 5]
+    let newNumbers = []
+    let newNumbers1 = []
+    for (let i = 0; i < 3; i++) {
+        newNumbers[i] = loopNumbers[i]
+        newNumbers1[i] = i + 12
+        console.log(loopNumbers)
+    }
+    
+    
+
+
+
+
+
+
+    //loop
+const loopNumbers = [1, 2, 3, 4, 5]
+let newNumbers = [1,2,3,4,5]
+let newNumbers1 = []
+for (let i = 0; i < loopNumbers.length; i = i +2) {
+    newNumbers[i] = loopNumbers[i] * 12
+    console.log(i)
+}
+
+console.log(newNumbers)
+    
+// const minimumpoint = 100
+// const dophinescore1 = 121 //97+112+101
+// const dophineaverage1 = dophinescore1 / 3
+// const Koalasscore1 = 121 //109+95+123
+// const Koalasavarage1 = Koalasscore1 / 3
+// console.log(dophineaverage1)
+// console.log(Koalasavarage1)
+// console.log(dophinescore1)
+// console.log(Koalasscore1)
+
+// if (dophinescore1 >= minimumpoint && dophinescore1 > Koalasscore1) {
+//     console.log("dolphins is the winner of the competition")
+
+// } else if (Koalasscore1 >= minimumpoint && Koalasscore1 > dophinescore1) {
+//     console.log("koalas is the winner of the competition")
+// } else if (Koalasscore1 === dophinescore1 && Koalasscore1 >= minimumpoint && dophinescore1 >= minimumpoint) {
+//     console.log("both team win")
+// } else if (Koalasscore1 < minimumpoint && dophinescore1 < minimumpoint) {
+//     console.log(" no team win the trophy")
+// }
+
+
+
+
+
+//loop
+// const names = ["Prosper", "Helen", "Camsy", "Joe"] //Joe
+// const passwords = ["pass123", "pass111", "pass010", "pass001"]
+// const name = prompt("What is your name?")
+// const password = prompt("What is your password?")
+// let greet = ''
+// for (let i = 0; i < names.length; i++) {
+//     if (names[i] === name) {
+//         if (passwords[i] === password) {
+//             greet = `Hello and Welcome ${name}`
+//         } else {
+//             greet = `Hello ${name} your password is not correct`
+//         }
+//     } else {
+//         if (!names.includes(name)) {
+//             greet = `Sorry ${name} you are not registered on this platform`
+//         }
+//     }
+// }
+
+
+// console.log(greet)
+
+
+
+const num1= prompt("input first number")
+const num2= prompt("input second number")
+const num3= prompt("input third number")
+const num4= prompt("input fourth number")
+const num5= prompt("input fifth number")
+const array=[num1, num2,num3,num4,num5]
+//const wego=[1,2,3,4,5]
+console.log(array)
+let son=[]
+for(let i=0; i < array.length -1; i++){
+     
+    console.log(array[i]=son)
+    son=i   
+} -->
+
+    <script>
+
+function toggleMenu() {
+    const menu = document.querySelector('.menu')
+    menu.classList.toggle('toggleMenu')
+}
+
+
+
+
+      const vall = document.querySelector("#number");
+      const val = document.querySelector("#number").textContent;
+      console.log(val);
+      let newVal = parseInt(val);
+      const increment = () => {
+        newVal = newVal + 1;
+        vall.innerHTML = newVal
+        if (newVal === 10) {
+          vall.classList.add("red");
+        }
+        if(newVal===12){
+          vall.classList.remove("red");
+        }
+        console.log(newVal);
+      };
+    </script>
+  </body>
+</html>

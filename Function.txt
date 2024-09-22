@@ -1,0 +1,9 @@
+When a function is given to you here are the things to take note of 
+
+1. How many parameters are required
+2. What are the data types of the parameters
+3. Remeber that the functions parameter are variables inside a function
+4. Always remeber to return something in a function except it doesnt require you do something
+5. The return value of a function is the functions value
+6. A function can take in different data types
+7. the parameters are in accordance with the sequence of the values passed when calling a function 
